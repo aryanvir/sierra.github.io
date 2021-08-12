@@ -24,6 +24,7 @@ html{
 
 .main{
     display:flex;
+    position:relative;
     
 }
 
@@ -397,7 +398,7 @@ animation: fromleft 5s;
 
 
 .second-panel{
-    background-image: url("images/space_hotel_v1_by_dekus_d2dmhvq.jpg");
+    background-image: url("images/Top\ view\ of\ the\ main\ ship.jpg");
     background-size: 130%;
     height: 50em;
     width: 90%;
@@ -421,45 +422,15 @@ animation: fromleft 5s;
 .second-panel h1{
     font-size: 4vh;
     position: absolute;
-    text-align: left;
+    text-align: right;
     width: auto;
     height: auto;
     bottom: 8vh;
-    left: 8vh;
+    right: 8vh;
     background-color: rgba(0,0,0,0.5);
 
 }
 
-.third-panel{
-    background-color: grey;
-    background-size: 110%;
-    height: 50em;
-    width: 90%;
-    position: relative;
-
-    display: table;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 25px;
-    margin-bottom: 6em;
-
-}
-    
-.third-panel-animation{
-    animation: fromright 1s;
-}
-
-.third-panel h1{
-    font-size: 3.5vh;
-    font-weight: bold;
-    position: absolute;
-    text-align: left;
-    width: auto;
-    height: auto;
-    bottom: 8vh;
-    left: 8vh;
-    background-color: rgba(0,0,0,0.5);
-}
 
 
 .black{
@@ -502,19 +473,56 @@ animation: fromleft 5s;
     padding-bottom: 35px;
 }
 
+#testimonials {
+    background-color: #fef9e6;
+    color: white;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+  
+  .testimonial-text {
+    font-size: 4rem;
+    line-height: 1.5;
+    display: block;
+    letter-spacing: -.04em;
+  
+  }
+  
+.h2-highlight {
+    background-image: linear-gradient(180deg, transparent 90%, #f7d277 0, #f7d277);
+  }
+  .carousel-item {
+    padding: 7% 15%;
+    text-align: center;
+    height: 400px;
+    background-color: black;
+  }
+
+  .carousel-item3 {
+    padding: 7% 15%;
+    text-align: center;
+    height: 200px;
+    background-color: black;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
 
 
 .footer {
     width: 100%;
-    background-color: black;
-    position: relative;
+    background-color: #232323;
+    position: absolute;
     z-index: 1;
     margin-top: 100vh;
 }
 
 .footer-basic {
     padding: 40px 0;
-    background-color: black;
+    background-color: #232323;
     color: #f0f5f9;
 
 }
@@ -560,6 +568,8 @@ ul.footer-links li {
     color: #f0f5f9;
     padding: 1em 2em;
 }
+
+
 
 
 @keyframes fromleft {
