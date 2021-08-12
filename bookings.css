@@ -1,0 +1,24 @@
+body{
+    background-color: #0B0B0B;
+    /* color: rgb(7, 27, 65); */
+    font-family: Montserrat;
+    color: white;
+    padding-top: 6em;
+}
+
+
+.black{
+    background-color: #000;
+    font-size: 2vh;
+}
+
+.images-container{
+    display: flex;
+}
+
+.first-image .second-image{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+}
+

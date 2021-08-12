@@ -1,0 +1,646 @@
+body{
+    background-color: black;
+    /* color: rgb(7, 27, 65); */
+    font-family: Montserrat;
+    color: white;
+    height: 100%
+
+}
+
+html{
+    height: 100%
+}
+
+.containers{
+    height: 100%;
+}
+
+.row-1{
+    display: flex;
+    height: 55em;
+    margin-top: 2em;
+    /* height: 24em; */
+}
+
+.main{
+    display:flex;
+    
+}
+
+.padded{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: auto;
+    padding-right: 50px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.loader{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    animation: zoom 3s;
+}
+
+.container {
+	width: 100%;
+    background: transparent;
+	margin: 0 auto;
+    height: 10%;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding-top: 3vh;
+  margin-left: 35vh;
+}
+
+nav {
+  float: right;
+  margin-right: 40vh;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vh;
+}
+
+nav a:hover {
+  color: #f7d277;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #f7d277;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.solid{
+    background-color: black;
+}
+
+.logo-img{
+    width: 30%;
+    height: 30%;
+}
+
+.first-panel{
+    background-image: url("images/Galaxy.jpg");
+    height: 65em;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-size: 150%;
+    background-position: 51.464%, 49.2635%, 50.488%, 49.7545%, 50.244%, 49.8773%;
+    background-repeat: no-repeat;
+
+    display: table;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 6em;
+}
+
+
+
+.first-panel h1{
+    font-size: 15vh;
+    /* position: absolute; */
+    text-align: center;
+    /* width: auto;
+    height: auto;
+    top: 0;
+    left: 50%; */
+    padding-top: 80px;
+    
+}
+
+.h2-positioning{
+    display: flex;/* defines flexbox */
+    flex-direction: column;/* top to bottom */
+    justify-content: space-between
+}
+
+
+
+.first-panel h2{
+    font-size: 5vh;
+    position: absolute;
+    text-align:center;
+    bottom: 260px;
+    width: 100%;
+}
+
+.btn-positioning{
+    display: flex;/* defines flexbox */
+    flex-direction: column;/* top to bottom */
+    justify-content: space-between
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2em;
+    position: absolute;
+    text-align:center;
+    bottom: 180px;
+    left:40%;
+    width: 20%;        
+
+ }
+ .btn:hover {
+    border-color: #f7d277;
+    background-color: #f7d277;
+    color: black;
+}
+
+ .p-btn{
+     text-align: center;
+     padding: 20px 60px;
+ }
+
+ .cards-background{
+    background-color: #fef9e6;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+#cards-section{
+    width: 100%;
+    padding: 0 0;
+    display: table;
+    margin-right: 0;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 0;
+    
+    position: relative;
+}
+
+
+.box-flow:hover {
+    color: #f7d277;
+    text-decoration: none;
+  }
+  
+  .box-flow::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #f7d277;
+  
+    position: relative;
+    top:100%;
+    bottom: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  .box-flow:hover::before {
+    width: 100%;
+  }
+
+
+
+.flex1,
+.flex2,
+.flex3,
+.flex4{
+  width: 21%;
+  height: 325px;
+  padding: 10px;
+  background-color: #232323;
+border-radius: 25px;
+animation: fromleft 5s;
+}
+
+
+.flex1{
+    animation: firstfromright 5s;
+
+
+}
+
+.flex1 h1{
+    font-size: 3.5vh;
+    width: auto;
+    height: auto;
+}
+
+.box1-img{
+    width: 65px;
+    height: 65;
+}
+.box2-img{
+    width: 70px;
+    height: 70;
+}
+
+.box3-img{
+    width: 65px;
+    height: 65;
+}
+
+.box4-img{
+    width: 70px;
+    height: 70;
+}
+
+
+.flex2{
+    animation: firstfromright 5s;
+    margin-left: 2%;
+}
+
+.flex2 h1{
+    font-size: 3vh;
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.flex3 {
+
+  margin-left: 2%;
+
+}
+
+.flex3 h1{
+    font-size: 3vh;
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.flex4 {
+
+  margin-left: 2%;
+}
+
+
+.flex4 h1{
+    font-size: 3vh;
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.best-rates{
+    width: 90%;
+    height: 250px;
+    background-color: #232323;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+    border-radius: 25px;
+}
+
+.content{
+    display: flex;
+}
+
+.best-rates h1{
+    color: #fef9e6;
+    font-weight: bold;
+    padding: 15px 25px;
+    padding-top: 25px;
+}
+.h2-content{
+    width: 70%;
+}
+
+.best-rates h2{
+    padding: 15px 25px;
+    font-size: 3vh;
+    color:#fae1a2;
+}
+
+
+.underline{
+    width: 180px;
+    height: 2px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.icons-section{
+
+    position:block;
+    padding-bottom: 100px;
+}
+
+.icons{
+    margin: 20px auto;
+    margin-left: 50px;
+    display: flex;
+}
+
+.icon1{
+    width: 90px;
+    height: 90px;
+}
+.icon2{
+    width: 90px;
+    height: 90px;
+}
+
+
+.second-panel{
+    background-image: url("images/space_hotel_v1_by_dekus_d2dmhvq.jpg");
+    background-size: 130%;
+    height: 50em;
+    width: 90%;
+    position: relative;
+
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    margin-bottom: 6em;
+
+}
+
+.second-panel-animation{
+    animation: fromleft 1s;
+
+}
+    
+
+
+.second-panel h1{
+    font-size: 4vh;
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    bottom: 8vh;
+    left: 8vh;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.third-panel{
+    background-color: grey;
+    background-size: 110%;
+    height: 50em;
+    width: 90%;
+    position: relative;
+
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    margin-bottom: 6em;
+
+}
+    
+.third-panel-animation{
+    animation: fromright 1s;
+}
+
+.third-panel h1{
+    font-size: 3.5vh;
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    bottom: 8vh;
+    left: 8vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.black{
+    background-color: #000;
+    font-size: 2vh;
+}
+
+
+
+.bookings-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fef9e6;
+    margin-bottom: 5%;
+}
+
+.bookings-section h1{
+    font-size: 6vh;
+    text-align: center;
+    /* margin-left: 20%; */
+    display: table;
+    text-transform: uppercase;
+    margin-right: auto;
+    font-weight: bold;
+    margin-left: auto;
+    color: black;
+    padding: 50px 0;
+}
+.bookings-section p{
+    width: 75%;
+    font-size: 3.5vh;
+    text-align: center;
+    color: #232323;
+    /* margin-left: 20%; */
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    padding: 10px 25px;
+    padding-bottom: 35px;
+}
+
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    margin-top: 100vh;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: black;
+    color: #f0f5f9;
+
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #f0f5f9;
+    margin-bottom: 0;
+}
+
+ul.footer-links {
+    margin: 0 auto;
+}
+
+ul.footer-links li {
+    display: inline-block;
+    font-size: .8em;
+    color: #f0f5f9;
+    padding: 1em 2em;
+}
+
+
+@keyframes fromleft {
+    from {
+      right: 150px;
+      opacity: 0%;
+    }
+  
+    to {
+      right: 0;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes zoom {
+    from {
+        scale: 0.75;
+    }
+  
+    to {
+        scale: 1.15;
+    }
+  }
+  
+  @keyframes fromtop {
+    from {
+      bottom: 150px;
+      opacity: 0%;
+    }
+  
+    to {
+      bottom: 0;
+      opacity: 100%;
+    }
+  }
+  
+  
+  @keyframes frombottom {
+    from {
+      top: 150px;
+      opacity: 0%;
+    }
+  
+    to {
+      top: 0;
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes fromright {
+    from {
+      left: 250px;
+      opacity: 0%;
+    }
+  
+    to {
+      left: 0;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes firstfromleft {
+    from {
+      right: 1000px;
+      opacity: 0%;
+    }
+  
+    to {
+      right: 0;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes firstfromright {
+    from {
+      left: 1000px;
+      opacity: 0%;
+    }
+  
+    to {
+      left: 0;
+      opacity: 100%;
+    }
+  }
