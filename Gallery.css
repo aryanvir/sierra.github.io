@@ -48,9 +48,9 @@
     color: #f7d277;
     text-decoration: none;
    }
-   .u-section-1 {
-  background-image: url("images/moonhotel2.png");
-  background-position: 50% 0%;
+  .u-section-1 {
+  background-image: url("images/Moonhotel2.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -58,7 +58,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 204px 112px 0 0;
+  margin: 204px 112px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
@@ -669,10 +669,15 @@
   margin: 127px 0 0;
 }
 
+.u-section-4 .u-text-2 {
+  font-size: 1.125rem;
+  margin: 0 0 0 242px;
+}
+
 .u-section-4 .u-btn-1 {
   background-image: none;
   border-style: solid;
-  margin: 20px 0 40px auto;
+  margin: 9px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -702,7 +707,11 @@
   }
 
   .u-section-4 .u-text-1 {
-    margin-top: 40px;
+    margin-top: 280px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 222px;
   }
 }
 
@@ -720,6 +729,15 @@
 
   .u-section-4 .u-text-1 {
     font-size: 2.25rem;
+    margin-top: 40px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 82px;
+  }
+
+  .u-section-4 .u-btn-1 {
+    margin-top: -13px;
   }
 }
 
@@ -741,9 +759,13 @@
     margin-left: initial;
   }
 
+  .u-section-4 .u-text-2 {
+    margin-top: 85px;
+    margin-left: 0;
+  }
+
   .u-section-4 .u-btn-1 {
-    margin-top: 55px;
-    margin-bottom: 50px;
+    margin-top: -95px;
   }
 }.u-section-5 {
   background-image: none;
@@ -1033,62 +1055,4 @@
     margin-left: 6px;
     margin-right: 6px;
   }
-}
-
-
-.footer {
-    width: 100%;
-    background-color: #232323;
-    position: absolute;
-    z-index: 1;
-    margin-top: 100vh;
-}
-
-.footer-basic {
-    padding: 40px 0;
-    background-color: #232323;
-    color: #f0f5f9;
-
-}
-
-.footer-basic ul {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-
-.footer-basic li {
-    padding: 0 10px;
-}
-
-.footer-basic ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 1;
-}
-
-.footer-basic ul a:hover {
-    opacity: 1;
-}
-
-.footer-basic .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #f0f5f9;
-    margin-bottom: 0;
-}
-
-ul.footer-links {
-    margin: 0 auto;
-}
-
-ul.footer-links li {
-    display: inline-block;
-    font-size: .8em;
-    color: #f0f5f9;
-    padding: 1em 2em;
 }
