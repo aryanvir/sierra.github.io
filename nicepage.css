@@ -3990,27 +3990,13 @@ span.fr-img-caption.fr-view {
 }
 /*end-commonstyles library*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
+
 audio,
 canvas,
 progress,
@@ -5555,29 +5541,7 @@ a {
 *:after {
   box-sizing: border-box;
 }
-html {
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-body {
-  height: auto;
-  min-height: 100%;
-}
-body,
-aside,
-.u-sidebar-block,
-section,
-header,
-footer {
-  position: relative;
-}
-section > *,
-header > *,
-footer > *,
-.u-sheet > * {
-  position: relative;
-}
+
 base {
   display: none;
 }
@@ -17041,9 +17005,7 @@ div.u-video,
 .u-flip-horizontal.u-flip-vertical.u-rotate-270 {
   transform: scaleX(-1) scaleY(-1) rotate(270deg) translate(0, -100%);
 }
-html {
-  font-size: 16px;
-}
+
 .u-body {
   font-size: 1rem;
   line-height: 1.6;
@@ -20003,14 +19965,7 @@ a.u-button-style.u-border-20 {
 .u-body {
   font-family: 'Open Sans',sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Roboto,sans-serif;
-}
+
 /*end-variables font-family*/
 /*begin-variables color*/
 .u-overlap.u-overlap-transparent .u-header,
@@ -34667,5 +34622,4 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
  /*begin-variables base-font-size*/ 
- html { font-size: 16px; }
  /*end-variables base-font-size*/
