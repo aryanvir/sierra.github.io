@@ -201,7 +201,7 @@ nav a:hover::before {
     font-size: 1.2em;
     position: absolute;
     text-align:center;
-    bottom: 60px;
+    bottom: 100px;
     left:40%;
     width: 20%;     
 
