@@ -453,23 +453,7 @@ nav a:hover {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
   }
-
-/* Fading animation */
-
-#testimonials {
-    background-color: #fef9e6;
-    color: white;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
-  }
-  
-  .testimonial-text {
-    font-size: 4rem;
-    line-height: 1.5;
-    display: block;
-    letter-spacing: -.04em;
-  
-  }
+	
 }.u-section-2 {
     background-image: none;
     min-height: 612px;
@@ -736,6 +720,24 @@ nav a:hover {
     }
   }
   
+
+/* Fading animation */
+
+#testimonials {
+    background-color: #fef9e6;
+    color: white;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+  
+  .testimonial-text {
+    font-size: 4rem;
+    line-height: 1.5;
+    display: block;
+    letter-spacing: -.04em;
+  
+  }
+
 .h2-highlight {
     background-image: linear-gradient(180deg, transparent 90%, #f7d277 0, #f7d277);
   }
